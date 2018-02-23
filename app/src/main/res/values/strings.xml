@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Tekken</string>
+    <string name="fighter_a_name">Jin Kazama</string>
+    <string name="fighter_b_name">Marshall Law</string>
+    <string name="fighter_a_move_1_text">Flash punch combo</string>
+    <string name="fighter_a_move_2_text">Demon Scissors</string>
+    <string name="fighter_a_move_3_text">Electric Wind Godfist</string>
+    <string name="fighter_b_move_1_text">Dragon Knuckle Combo</string>
+    <string name="fighter_b_move_2_text">Banana Peel</string>
+    <string name="fighter_b_move_3_text">Machine Gun Arrow</string>
+</resources>
