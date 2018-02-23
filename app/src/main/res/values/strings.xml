@@ -8,4 +8,5 @@
     <string name="fighter_b_move_1_text">Dragon Knuckle Combo</string>
     <string name="fighter_b_move_2_text">Banana Peel</string>
     <string name="fighter_b_move_3_text">Machine Gun Arrow</string>
+    <string name="initial_score_text">100</string>
 </resources>

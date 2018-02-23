@@ -4,4 +4,5 @@
     <color name="colorPrimaryDark">#D32F2F</color>
     <color name="colorAccent">#FF9800</color>
     <color name="colorButtonNormal">#FFC107</color>
+    <color name="colorFighterName">#616161</color>
 </resources>
