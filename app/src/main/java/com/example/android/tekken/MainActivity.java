@@ -10,8 +10,8 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    int scoreFighterA = 100;
-    int scoreFighterB = 100;
+    private int scoreFighterA = 100;
+    private int scoreFighterB = 100;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,13 +29,13 @@ public class MainActivity extends AppCompatActivity {
         int id = v.getId();
 
         switch (id) {
-            case R.id.fighter_a_move_1:
+            case R.id.btn_fighter_a_move_1:
                 scoreFighterB -= 15;
                 break;
-            case R.id.fighter_a_move_2:
+            case R.id.btn_fighter_a_move_2:
                 scoreFighterB -= 10;
                 break;
-            case R.id.fighter_a_move_3:
+            case R.id.btn_fighter_a_move_3:
                 scoreFighterB -= 5;
                 break;
             default:
@@ -63,13 +63,13 @@ public class MainActivity extends AppCompatActivity {
         int id = v.getId();
 
         switch (id) {
-            case R.id.fighter_b_move_1:
+            case R.id.btn_fighter_b_move_1:
                 scoreFighterA -= 15;
                 break;
-            case R.id.fighter_b_move_2:
+            case R.id.btn_fighter_b_move_2:
                 scoreFighterA -= 10;
                 break;
-            case R.id.fighter_b_move_3:
+            case R.id.btn_fighter_b_move_3:
                 scoreFighterA -= 5;
                 break;
             default:
@@ -106,7 +106,7 @@ public class MainActivity extends AppCompatActivity {
      * Displays the given score for Fighter A.
      */
     public void displayForFighterA(int score) {
-        TextView scoreView = findViewById(R.id.fighter_a_score);
+        TextView scoreView = findViewById(R.id.txt_fighter_a_score);
         scoreView.setText(String.valueOf(score));
     }
 
@@ -114,7 +114,7 @@ public class MainActivity extends AppCompatActivity {
      * Displays the given score for Fighter B.
      */
     public void displayForFighterB(int score) {
-        TextView scoreView = findViewById(R.id.fighter_b_score);
+        TextView scoreView = findViewById(R.id.txt_fighter_b_score);
         scoreView.setText(String.valueOf(score));
     }
 
